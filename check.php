@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
 	}
 } else {
 	echo "<div data-alert class='alert-box alert round'>
-					<h3>The Hobbies have not been added</h3>
+					<h4 class='text-center'>The Hobbies have not been added</h4>
 						<a href='#' class='close'>&times;</a>
 				</div>";
 }
