@@ -1,6 +1,6 @@
 <?php include 'html5req.php';?>
 <h1>Which Hobbies do you like</h1>
-<form action="" id="webForm" method="POST">
+<form action="check.php" method="POST">
 	<div class="row">
 		<div class="large-12 columns">
 			<input type="checkbox" name="Hobbies[]" value="Books" /><label>Books</label><br />
