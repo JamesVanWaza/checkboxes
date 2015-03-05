@@ -3,11 +3,11 @@
 <form action="" id="webForm" method="POST">
 	<div class="row">
 		<div class="large-12 columns">
-			<input type="checkbox" name="Hobbies[]" value="Books" />Books<br />
-			<input type="checkbox" name="Hobbies[]" value="Movies" />Movies<br />
-			<input type="checkbox" name="Hobbies[]" value="Sports" />Sports<br />
-			<input type="checkbox" name="Hobbies[]" value="Games" />Games<br />
-			<input type="checkbox" name="Hobbies[]" value="Travelling" />Travelling<br />
+			<input type="checkbox" name="Hobbies[]" value="Books" /><label>Books</label><br />
+			<input type="checkbox" name="Hobbies[]" value="Movies" /><label>Movies</label><br />
+			<input type="checkbox" name="Hobbies[]" value="Sports" /><label>Sports</label><br />
+			<input type="checkbox" name="Hobbies[]" value="Games" /><label>Games</label><br />
+			<input type="checkbox" name="Hobbies[]" value="Travelling" /><label>Travel</label><br />
 			<br />
 			<button class="submit-btn">Submit</button>
 		</div>
