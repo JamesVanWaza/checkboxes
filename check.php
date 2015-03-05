@@ -1,6 +1,5 @@
 <?php
 include 'html5req.php';
-
 if (isset($_POST['submit'])) {
 	$hobb = $_POST['Hobbies'];
 	if (empty($hobb)) {
@@ -16,11 +15,12 @@ if (isset($_POST['submit'])) {
 			$inserted_fid = mysqli_insert_id();
 			mysqli_close();
 		}
-
 		echo "<h3>" . "The Hobbies have been added" . "</h3>";
 	}
 } else {
-	echo "<h3>" . "The Hobbies have not been added" . "</h3>";
+	echo "<div data-alert class='alert-box alert round'>
+					<h3>The Hobbies have not been added</h3>
+						<a href='#' class='close'>&times;</a>
+				</div>";
 }
-
 ?>
