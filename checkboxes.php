@@ -1,5 +1,5 @@
 <?php include 'html5req.php';?>
-<h1>Which Hobbies fo you like</h1>
+<h1>Which Hobbies do you like</h1>
 <form action="" id="webForm" method="POST">
 	<div class="row">
 		<div class="large-12 columns">
