@@ -1,3 +1,3 @@
-This are template files to start a new responsive project. 
+This Project is used to show how to add checkboxes to a database.
+Same procedure would be used to add radio buttons.
 
-register-page.php, A Form and an SQL Insert Statement is included.
