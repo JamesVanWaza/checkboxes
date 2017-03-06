@@ -1,4 +1,4 @@
-<?php include_once( 'html5req.php'); ?>
+<?php include_once 'html5req.php';?>
     <nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false">
         <ul class="title-area">
             <li class="name">
@@ -22,17 +22,3 @@
       </ul>
 </section>
 </nav>
-<script>
-document.write('<script src=js/vendor/' +
-('__proto__' in {} ? 'zepto' : 'jquery') +
-'.js><\/script>')
-</script>
-<script src="js/vendor/jquery.js"></script>
-<script src="js/foundation/foundation.js"></script>
-<!-- <script src="js/foundation/foundation.orbit.js"></script> -->
-<!-- Updating slider settings in here -->
-<script src="js/foundation.min.js"></script>
-<script>
-$(document).foundation();
-
-</script>
