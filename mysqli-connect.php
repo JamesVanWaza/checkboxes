@@ -4,10 +4,10 @@
  */
 
 //First we define the constants:
-define('DB_USER', 'admin9997');
-define('DB_PASSWORD', 'WP6cV+~SqUU~w#Nzu9');
+define('DB_USER', 'info@dosbranding.com');
+define('DB_PASSWORD', 'i7Bgy.BJ*!rpj@i7wJNi-K@KD9_Hwk');
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'jamesvanwaza');
+define('DB_NAME', 'DosbrandingCreative');
 
 /** Next we assign the database connection to a variable that we will call $dbcon */
 $dbcon = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die('Could not connect to MYSQL: ' . mysqli_connect_error());
