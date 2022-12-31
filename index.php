@@ -1,2 +1,4 @@
-<?php include_once 'html5req.php';?>
+<?php include_once 'nav.php';?>
+
+<?php include 'footer.php'; ?>
 
